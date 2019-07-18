@@ -1,0 +1,26 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "Automated testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "clean": "rm -rf node_modules && rm -f package-lock.json",
+    "reinstall": "npm run clean && npm install"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Denis Saparov",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-image-snapshot": "^3.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^3.4.0",
+    "cypress-xpath": "^1.4.0",
+    "jest": "^24.8.0",
+    "jest-image-snapshot": "^2.9.0"
+  }
+}
