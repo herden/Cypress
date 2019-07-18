@@ -1,0 +1,13 @@
+{      
+      "compilerOptions": {
+        "allowJs": true,
+        "noEmit": true , // Solved the problem - Cannot write file ... because it would overwrite input file.
+        "baseUrl": "../node_modules",
+        "types": [
+            "cypress"
+        ]
+    },
+    "include": [
+        "**/*"
+    ]
+}
